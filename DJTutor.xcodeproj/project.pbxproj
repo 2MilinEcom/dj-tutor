@@ -1,0 +1,60 @@
+// !$*UTF8*$!
+{archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
+000000000000000000000240 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/TeacherDemoView.swift; sourceTree = "<group>";};
+000000000000000000000241 = {isa = PBXBuildFile; fileRef = 000000000000000000000240;};
+000000000000000000000242 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/TeacherDemo.swift; sourceTree = "<group>";};
+000000000000000000000243 = {isa = PBXBuildFile; fileRef = 000000000000000000000242;};
+000000000000000000000230 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/DjayTeacher.swift; sourceTree = "<group>";};
+000000000000000000000231 = {isa = PBXBuildFile; fileRef = 000000000000000000000230;};
+000000000000000000000232 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/TeacherLessons.swift; sourceTree = "<group>";};
+000000000000000000000233 = {isa = PBXBuildFile; fileRef = 000000000000000000000232;};
+
+000000000000000000000220 = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config/DjayCompanion.xcconfig; sourceTree = "<group>";};
+000000000000000000000221 = {isa = XCBuildConfiguration; buildSettings = {SDKROOT = iphoneos; CLANG_ENABLE_MODULES = YES;}; name = Companion;};
+000000000000000000000222 = {isa = XCBuildConfiguration; baseConfigurationReference = 000000000000000000000220; buildSettings = {PRODUCT_NAME = "$(TARGET_NAME)"; INFOPLIST_FILE = App/Info.plist; TARGETED_DEVICE_FAMILY = "1,2"; CODE_SIGN_STYLE = Automatic; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";}; name = Companion;};
+
+000000000000000000000210 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/DjayCompanion.swift; sourceTree = "<group>";};
+000000000000000000000211 = {isa = PBXBuildFile; fileRef = 000000000000000000000210;};
+000000000000000000000212 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/LinkClock.swift; sourceTree = "<group>";};
+000000000000000000000213 = {isa = PBXBuildFile; fileRef = 000000000000000000000212;};
+000000000000000000000214 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/CompanionTiming.swift; sourceTree = "<group>";};
+000000000000000000000215 = {isa = PBXBuildFile; fileRef = 000000000000000000000214;};
+000000000000000000000216 = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Vendor/LinkKit/LinkKit.xcframework; sourceTree = "<group>";};
+000000000000000000000217 = {isa = PBXBuildFile; fileRef = 000000000000000000000216;};
+000000000000000000000218 = {isa = PBXFileReference; lastKnownFileType = wrapper.cfbundle; path = Vendor/LinkKit/LinkKitResources.bundle; sourceTree = "<group>";};
+000000000000000000000219 = {isa = PBXBuildFile; fileRef = 000000000000000000000218;};
+00000000000000000000021A = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (000000000000000000000217); runOnlyForDeploymentPostprocessing = 0;};
+00000000000000000000021B = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (000000000000000000000219); runOnlyForDeploymentPostprocessing = 0;};
+
+000000000000000000000202 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/BoardAcceptance.swift; sourceTree = "<group>";};
+000000000000000000000203 = {isa = PBXBuildFile; fileRef = 000000000000000000000202;};
+000000000000000000000200 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/DJBoard.swift; sourceTree = "<group>";};
+000000000000000000000201 = {isa = PBXBuildFile; fileRef = 000000000000000000000200;};
+000000000000000000000190 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/AudioConversion.swift; sourceTree = "<group>";};
+000000000000000000000191 = {isa = PBXBuildFile; fileRef = 000000000000000000000190;};
+000000000000000000000001 = {isa = PBXProject; attributes = {LastUpgradeCheck = 1600;}; buildConfigurationList = 000000000000000000000002; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; knownRegions = (en, Base); mainGroup = 000000000000000000000003; productRefGroup = 000000000000000000000004; projectDirPath = ""; targets = (000000000000000000000005);};
+000000000000000000000003 = {isa = PBXGroup; children = (000000000000000000000240,000000000000000000000242,000000000000000000000230,000000000000000000000232,000000000000000000000220,000000000000000000000210,000000000000000000000212,000000000000000000000214,000000000000000000000216,000000000000000000000218,000000000000000000000202,000000000000000000000200,000000000000000000000190,000000000000000000000064,000000000000000000000065,000000000000000000000066,000000000000000000000067,000000000000000000000068,000000000000000000000069,000000000000000000000009,000000000000000000000004); sourceTree = "<group>";};
+000000000000000000000004 = {isa = PBXGroup; children = (000000000000000000000006); name = Products; sourceTree = "<group>";};
+000000000000000000000006 = {isa = PBXFileReference; explicitFileType = wrapper.application; path = DJTutor.app; sourceTree = BUILT_PRODUCTS_DIR;};
+000000000000000000000009 = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config/App.xcconfig; sourceTree = "<group>";};
+000000000000000000000005 = {isa = PBXNativeTarget; buildConfigurationList = 000000000000000000000007; buildPhases = (000000000000000000000008,00000000000000000000021A,00000000000000000000021B); buildRules = (); dependencies = (); name = DJTutor; productName = DJTutor; productReference = 000000000000000000000006; productType = "com.apple.product-type.application";};
+000000000000000000000008 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (000000000000000000000241,000000000000000000000243,000000000000000000000231,000000000000000000000233,000000000000000000000211,000000000000000000000213,000000000000000000000215,000000000000000000000203,000000000000000000000201,000000000000000000000191,0000000000000000000000C8,0000000000000000000000C9,0000000000000000000000CA,0000000000000000000000CB,0000000000000000000000CC,0000000000000000000000CD); runOnlyForDeploymentPostprocessing = 0;};
+000000000000000000000064 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/AudioLab.swift; sourceTree = "<group>";};
+0000000000000000000000C8 = {isa = PBXBuildFile; fileRef = 000000000000000000000064;};
+000000000000000000000065 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Coach.swift; sourceTree = "<group>";};
+0000000000000000000000C9 = {isa = PBXBuildFile; fileRef = 000000000000000000000065;};
+000000000000000000000066 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/DJTutorApp.swift; sourceTree = "<group>";};
+0000000000000000000000CA = {isa = PBXBuildFile; fileRef = 000000000000000000000066;};
+000000000000000000000067 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Models.swift; sourceTree = "<group>";};
+0000000000000000000000CB = {isa = PBXBuildFile; fileRef = 000000000000000000000067;};
+000000000000000000000068 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/Spotify.swift; sourceTree = "<group>";};
+0000000000000000000000CC = {isa = PBXBuildFile; fileRef = 000000000000000000000068;};
+000000000000000000000069 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/DJCore.swift; sourceTree = "<group>";};
+0000000000000000000000CD = {isa = PBXBuildFile; fileRef = 000000000000000000000069;};
+00000000000000000000000A = {isa = XCBuildConfiguration; buildSettings = {SDKROOT = iphoneos; CLANG_ENABLE_MODULES = YES;}; name = Debug;};
+00000000000000000000000B = {isa = XCBuildConfiguration; buildSettings = {SDKROOT = iphoneos; CLANG_ENABLE_MODULES = YES;}; name = Release;};
+00000000000000000000000C = {isa = XCBuildConfiguration; baseConfigurationReference = 000000000000000000000009; buildSettings = {PRODUCT_NAME = "$(TARGET_NAME)"; INFOPLIST_FILE = App/Info.plist; TARGETED_DEVICE_FAMILY = "1,2"; CODE_SIGN_STYLE = Automatic; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;}; name = Debug;};
+00000000000000000000000D = {isa = XCBuildConfiguration; baseConfigurationReference = 000000000000000000000009; buildSettings = {PRODUCT_NAME = "$(TARGET_NAME)"; INFOPLIST_FILE = App/Info.plist; TARGETED_DEVICE_FAMILY = "1,2"; CODE_SIGN_STYLE = Automatic; SWIFT_OPTIMIZATION_LEVEL = "-O";}; name = Release;};
+000000000000000000000002 = {isa = XCConfigurationList; buildConfigurations = (000000000000000000000221,00000000000000000000000A,00000000000000000000000B); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+000000000000000000000007 = {isa = XCConfigurationList; buildConfigurations = (000000000000000000000222,00000000000000000000000C,00000000000000000000000D); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+}; rootObject = 000000000000000000000001;}

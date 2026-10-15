@@ -1,0 +1,1 @@
+{"name":"dj-tutor-coach","private":true,"type":"module","scripts":{"start":"node --env-file-if-exists=.env server.mjs","test":"node --test","token":"node --env-file-if-exists=.env mint-token.mjs"},"engines":{"node":">=22"}}

@@ -1,0 +1,4 @@
+#include "App.xcconfig"
+// Free personal-team build: djay owns Spotify sign-in and playback.
+CODE_SIGN_ENTITLEMENTS = App/Companion.entitlements
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) DJAY_COMPANION

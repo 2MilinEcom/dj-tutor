@@ -1,0 +1,15 @@
+// Public identifiers only. Never add client secrets or AI provider keys.
+SPOTIFY_CLIENT_ID =
+// xcconfig requires this form to preserve the URL slashes.
+SPOTIFY_REDIRECT_URI = https:/$()/spotify-callback-production-c577.up.railway.app/spotify/callback
+COACH_BASE_URL =
+PRODUCT_BUNDLE_IDENTIFIER = com.djtut.app
+DEVELOPMENT_TEAM =
+CODE_SIGN_ENTITLEMENTS = App/DJTutor.entitlements
+IPHONEOS_DEPLOYMENT_TARGET = 17.4
+SWIFT_VERSION = 5.0
+
+// Official LinkKit C/Objective-C bridge; the XCFramework selects the correct library slice.
+SWIFT_OBJC_BRIDGING_HEADER = App/LinkBridge.h
+HEADER_SEARCH_PATHS = $(inherited) $(SRCROOT)/Vendor/LinkKit/LinkKit.xcframework/ios-arm64/Headers
+OTHER_LDFLAGS = $(inherited) -lc++
